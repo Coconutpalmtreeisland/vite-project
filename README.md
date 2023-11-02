@@ -1,7 +1,8 @@
 # vite를 이용한 포트폴리오 사이트 만들기
 
 ## vite를 사용하는 이유
-Vite는  JavaScript 프로젝트를 개발할 때 선택할 수 있는 빌드 도구 중 하나로, 빠른 개발 및 최신 웹 개발 기술을 활용할 수 있는 강력한 도구로서 웹 애플리케이션 및 웹사이트 개발자들에게 유용합니다.
+
+Vite는 JavaScript 프로젝트를 개발할 때 선택할 수 있는 빌드 도구 중 하나로, 빠른 개발 및 최신 웹 개발 기술을 활용할 수 있는 강력한 도구로서 웹 애플리케이션 및 웹사이트 개발자들에게 유용합니다.
 
 1.빠른 개발 환경: Vite는 개발 서버가 빠르게 동작하며, 빠른 빌드 시간을 제공합니다. 코드 변경 사항을 빠르게 반영하여 개발자가 빠르게 피드백을 받을 수 있습니다.
 
@@ -16,6 +17,7 @@ Vite는  JavaScript 프로젝트를 개발할 때 선택할 수 있는 빌드 �
 [vite](https://ko.vitejs.dev/guide/)
 
 ## 에러 해결 방법
+
 <details>
     <summary>
         error: remote origin already exists.
@@ -24,15 +26,17 @@ Vite는  JavaScript 프로젝트를 개발할 때 선택할 수 있는 빌드 �
 
     자격 증명 관리자 > Windows 자격 증명 > 일반 자격 증명에 있는 GitHub를 수정하면 로그인 후에
 
-    echo "# vite-project" >> README.md    
+    echo "# vite-project" >> README.md
     >> git init
     >> git add README.md
     >> git commit -m "first commit"
     >> git remote add origin https://github.com/Coconutpalmtreeisland/vite-project.git
 
     하면 저장소가 재연결되어 업로드 됩니다.
+
 </details>
 
 ## module
-협업 시 구조화하고 한줄 작업을 하기 위해 사용합니다.
+
+협업 시 구조화하고 한줄 작업(용량 줄이기)을 하기 위해(번들링) 사용합니다.
 원조는 웹팩이며 vite에서 사용 가능합니다.

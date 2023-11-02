@@ -1,0 +1,53 @@
+:root {
+    --mainEng-font: "Montserrat";
+    --mainKor-font: "nanumSquareNeo";
+    --mainNum-font: "gmarket";
+    --mainTitle-font: "Cinzel";
+
+    --mainBg-color: #0d0d1b;
+    --mainfont-color: #f88973;
+    --subBg100: #f1c1b8;
+    --subBg200: #f7a392;
+    --subBg300: #f88973;
+    --subBg400: #f87e66;
+    --subBg500: #ffffff;
+    --subBg600: #ffffff;
+    --subBg700: #ffffff;
+
+    --white: #ffffff;
+    --black: #000000;
+    --black100: #202020;
+    --black200: #303030;
+    --black300: #424242;
+    --black400: #505050;
+    --black500: #636363;
+    --black600: #727272;
+    --black700: #858585;
+
+    /* 기본 폰트 설정 */
+    font-family: var(--mainEng-font), var(--mainKor-font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    /* 폰트를 부드럽게 렌더링하기 위한 속성  */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* 아이폰 가로 모드에서 글씨 확대 금지 */
+    -webkit-text-size-adjust: 100%;
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
+body {
+    color: var(--black);
+    background-color: var(--mainBg-color);
+}

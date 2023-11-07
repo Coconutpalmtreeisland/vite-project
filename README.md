@@ -16,8 +16,17 @@ Vite는 JavaScript 프로젝트를 개발할 때 선택할 수 있는 빌드 도
 
 [vite](https://ko.vitejs.dev/guide/)
 
-## 에러 해결 방법
+## 구현 기능
+- 구글 폰트 적용
+- smooth 효과 적용 https://lenis.studiofreight.com/
+- 자바스크립트 메뉴 클릭 이동 효과 적용
+- GSAP를 이용한 가로 효과
+- JavaScript 모듈 기능 적용
+- 웹표준 준수를 위한 스킵 메뉴 및 aira, role 적용
+- vite 빌드 작업 `npm run build`
+- netilfy 배포 작업
 
+## 트러블 슈팅-에러 해결 방법
 <details>
     <summary>
         error: remote origin already exists.

@@ -10,11 +10,11 @@ export function port() {
         ease: "none",
         scrollTrigger: {
             trigger: "#port",
-            start: "top top",
+            start: "top 56px",
             end: "+=3000",
             pin: true,
             scrub: 1,
-            /* markers: true, */
+            markers: false,
             invalidateOnRefresh: true,
             anticipatePin: 1
         }
